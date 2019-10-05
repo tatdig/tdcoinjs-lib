@@ -1,8 +1,8 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
-const bip174_1 = require('bip174');
-const varuint = require('bip174/src/lib/converter/varint');
-const utils_1 = require('bip174/src/lib/utils');
+const bip174_tdcoin_1 = require('bip174-tdcoin');
+const varuint = require('bip174-tdcoin/src/lib/converter/varint');
+const utils_1 = require('bip174-tdcoin/src/lib/utils');
 const address_1 = require('./address');
 const bufferutils_1 = require('./bufferutils');
 const crypto_1 = require('./crypto');
@@ -60,7 +60,10 @@ const DEFAULT_OPTS = {
  *   Transaction object. Such as fee rate not being larger than maximumFeeRate etc.
  */
 class Psbt {
-  constructor(opts = {}, data = new bip174_1.Psbt(new PsbtTransaction())) {
+  constructor(
+    opts = {},
+    data = new bip174_tdcoin_1.Psbt(new PsbtTransaction()),
+  ) {
     this.data = data;
     // set defaults
     this.opts = Object.assign({}, DEFAULT_OPTS, opts);
@@ -89,7 +92,10 @@ class Psbt {
     return this.fromBuffer(buffer, opts);
   }
   static fromBuffer(buffer, opts = {}) {
-    const psbtBase = bip174_1.Psbt.fromBuffer(buffer, transactionFromBuffer);
+    const psbtBase = bip174_tdcoin_1.Psbt.fromBuffer(
+      buffer,
+      transactionFromBuffer,
+    );
     const psbt = new Psbt(opts, psbtBase);
     checkTxForDupeIns(psbt.__CACHE.__TX, psbt.__CACHE);
     return psbt;

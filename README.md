@@ -104,24 +104,24 @@ Some examples interact (via HTTPS) with a 3rd Party Blockchain Provider (3PBP).
 - [Create (and broadcast via 3PBP) a Transaction with a SegWit P2PK input](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
 - [Create (and broadcast via 3PBP) a Transaction with a SegWit 3-of-4 P2SH(P2WSH(multisig)) input](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
 - [Create (and broadcast via 3PBP) a Transaction and sign with an HDSigner interface (bip32)](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
-- [Import a BIP32 testnet xpriv and export to WIF](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
-- [Export a BIP32 xpriv, then import it](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
-- [Export a BIP32 xpub](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
-- [Create a BIP32, tdcoin, account 0, external address](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
-- [Create a BIP44, tdcoin, account 0, external address](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
-- [Create a BIP49, tdcoin testnet, account 0, external address](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
-- [Use BIP39 to generate BIP32 addresses](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
-- [Create (and broadcast via 3PBP) a Transaction where Alice can redeem the output after the expiry (in the past)](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/cltv.spec.ts)
-- [Create (and broadcast via 3PBP) a Transaction where Alice can redeem the output after the expiry (in the future)](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/cltv.spec.ts)
-- [Create (and broadcast via 3PBP) a Transaction where Alice and Bob can redeem the output at any time](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/cltv.spec.ts)
-- [Create (but fail to broadcast via 3PBP) a Transaction where Alice attempts to redeem before the expiry](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/cltv.spec.ts)
-- [Create (and broadcast via 3PBP) a Transaction where Alice can redeem the output after the expiry (in the future) (simple CHECKSEQUENCEVERIFY)](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/csv.spec.ts)
-- [Create (but fail to broadcast via 3PBP) a Transaction where Alice attempts to redeem before the expiry (simple CHECKSEQUENCEVERIFY)](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/csv.spec.ts)
-- [Create (and broadcast via 3PBP) a Transaction where Bob and Charles can send (complex CHECKSEQUENCEVERIFY)](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/csv.spec.ts)
-- [Create (and broadcast via 3PBP) a Transaction where Alice (mediator) and Bob can send after 2 blocks (complex CHECKSEQUENCEVERIFY)](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/csv.spec.ts)
-- [Create (and broadcast via 3PBP) a Transaction where Alice (mediator) can send after 5 blocks (complex CHECKSEQUENCEVERIFY)](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/csv.spec.ts)
+- [Import a BIP32 testnet xpriv and export to WIF](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
+- [Export a BIP32 xpriv, then import it](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
+- [Export a BIP32 xpub](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
+- [Create a BIP32, tdcoin, account 0, external address](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
+- [Create a BIP44, tdcoin, account 0, external address](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
+- [Create a BIP49, tdcoin testnet, account 0, external address](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
+- [Use BIP39 to generate BIP32 addresses](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
+- [Create (and broadcast via 3PBP) a Transaction where Alice can redeem the output after the expiry (in the past)](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/cltv.spec.ts)
+- [Create (and broadcast via 3PBP) a Transaction where Alice can redeem the output after the expiry (in the future)](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/cltv.spec.ts)
+- [Create (and broadcast via 3PBP) a Transaction where Alice and Bob can redeem the output at any time](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/cltv.spec.ts)
+- [Create (but fail to broadcast via 3PBP) a Transaction where Alice attempts to redeem before the expiry](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/cltv.spec.ts)
+- [Create (and broadcast via 3PBP) a Transaction where Alice can redeem the output after the expiry (in the future) (simple CHECKSEQUENCEVERIFY)](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/csv.spec.ts)
+- [Create (but fail to broadcast via 3PBP) a Transaction where Alice attempts to redeem before the expiry (simple CHECKSEQUENCEVERIFY)](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/csv.spec.ts)
+- [Create (and broadcast via 3PBP) a Transaction where Bob and Charles can send (complex CHECKSEQUENCEVERIFY)](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/csv.spec.ts)
+- [Create (and broadcast via 3PBP) a Transaction where Alice (mediator) and Bob can send after 2 blocks (complex CHECKSEQUENCEVERIFY)](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/csv.spec.ts)
+- [Create (and broadcast via 3PBP) a Transaction where Alice (mediator) can send after 5 blocks (complex CHECKSEQUENCEVERIFY)](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/csv.spec.ts)
 
-If you have a use case that you feel could be listed here, please [ask for it](https://github.com/tdcoinjs/tdcoinjs-lib/issues/new)!
+If you have a use case that you feel could be listed here, please [ask for it](https://github.com/tatdig/tdcoinjs-lib/issues/new)!
 
 
 ## Contributing
@@ -136,19 +136,19 @@ npm run-script coverage
 ```
 
 ## Complementing Libraries
-- [BIP21](https://github.com/tdcoinjs/bip21) - A BIP21 compatible URL encoding library
-- [BIP38](https://github.com/tdcoinjs/bip38) - Passphrase-protected private keys
-- [BIP39](https://github.com/tdcoinjs/bip39) - Mnemonic generation for deterministic keys
-- [BIP32-Utils](https://github.com/tdcoinjs/bip32-utils) - A set of utilities for working with BIP32
-- [BIP66](https://github.com/tdcoinjs/bip66) - Strict DER signature decoding
-- [BIP68](https://github.com/tdcoinjs/bip68) - Relative lock-time encoding library
-- [BIP69](https://github.com/tdcoinjs/bip69) - Lexicographical Indexing of Transaction Inputs and Outputs
+- [BIP21](https://github.com/tatdig/bip21) - A BIP21 compatible URL encoding library
+- [BIP38](https://github.com/tatdig/bip38) - Passphrase-protected private keys
+- [BIP39](https://github.com/tatdig/bip39) - Mnemonic generation for deterministic keys
+- [BIP32-Utils](https://github.com/tatdig/bip32-utils) - A set of utilities for working with BIP32
+- [BIP66](https://github.com/tatdig/bip66) - Strict DER signature decoding
+- [BIP68](https://github.com/tatdig/bip68) - Relative lock-time encoding library
+- [BIP69](https://github.com/tatdig/bip69) - Lexicographical Indexing of Transaction Inputs and Outputs
 - [Base58](https://github.com/cryptocoinjs/bs58) - Base58 encoding/decoding
-- [Base58 Check](https://github.com/tdcoinjs/bs58check) - Base58 check encoding/decoding
-- [Bech32](https://github.com/tdcoinjs/bech32) - A BIP173 compliant Bech32 encoding library
-- [coinselect](https://github.com/tdcoinjs/coinselect) - A fee-optimizing, transaction input selection module for tdcoinjs-lib.
-- [merkle-lib](https://github.com/tdcoinjs/merkle-lib) - A performance conscious library for merkle root and tree calculations.
-- [minimaldata](https://github.com/tdcoinjs/minimaldata) - A module to check tdcoin policy: SCRIPT_VERIFY_MINIMALDATA
+- [Base58 Check](https://github.com/tatdig/bs58check) - Base58 check encoding/decoding
+- [Bech32](https://github.com/tatdig/bech32) - A BIP173 compliant Bech32 encoding library
+- [coinselect](https://github.com/tatdig/coinselect) - A fee-optimizing, transaction input selection module for tdcoinjs-lib.
+- [merkle-lib](https://github.com/tatdig/merkle-lib) - A performance conscious library for merkle root and tree calculations.
+- [minimaldata](https://github.com/tatdig/minimaldata) - A module to check tdcoin policy: SCRIPT_VERIFY_MINIMALDATA
 
 
 ## Alternatives

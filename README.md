@@ -18,7 +18,7 @@ Master is not stable; it is our development branch, and [only tagged releases ma
 
 We recommend every user of this library and the [tdcoinjs](https://github.com/tdcoinjs) ecosystem audit and verify any underlying code for its validity and suitability,  including reviewing any and all of your project's dependencies.
 
-Mistakes and bugs happen, but with your help in resolving and reporting [issues](https://github.com/tdcoinjs/tdcoinjs-lib/issues), together we can produce open source software that is:
+Mistakes and bugs happen, but with your help in resolving and reporting [issues](https://github.com/tatdig/tdcoinjs-lib/issues), together we can produce open source software that is:
 
 - Easy to audit and verify,
 - Tested, with test coverage >95%,
@@ -28,7 +28,7 @@ Mistakes and bugs happen, but with your help in resolving and reporting [issues]
 
 
 ## Documentation
-Presently,  we do not have any formal documentation other than our [examples](#examples), please [ask for help](https://github.com/tdcoinjs/tdcoinjs-lib/issues/new) if our examples aren't enough to guide you.
+Presently,  we do not have any formal documentation other than our [examples](#examples), please [ask for help](https://github.com/tatdig/tdcoinjs-lib/issues/new) if our examples aren't enough to guide you.
 
 
 ## Installation
@@ -85,25 +85,25 @@ The below examples are implemented as integration tests, they should be very eas
 Otherwise, pull requests are appreciated.
 Some examples interact (via HTTPS) with a 3rd Party Blockchain Provider (3PBP).
 
-- [Generate a random address](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
-- [Import an address via WIF](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
-- [Generate a 2-of-3 P2SH multisig address](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
-- [Generate a SegWit address](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
-- [Generate a SegWit P2SH address](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
-- [Generate a SegWit 3-of-4 multisig address](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
-- [Generate a SegWit 2-of-2 P2SH multisig address](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
-- [Support the retrieval of transactions for an address (3rd party blockchain)](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
-- [Generate a Testnet address](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
-- [Generate a Litecoin address](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
-- [Create a 1-to-1 Transaction](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
-- [Create (and broadcast via 3PBP) a typical Transaction](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
-- [Create (and broadcast via 3PBP) a Transaction with an OP\_RETURN output](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
-- [Create (and broadcast via 3PBP) a Transaction with a 2-of-4 P2SH(multisig) input](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
-- [Create (and broadcast via 3PBP) a Transaction with a SegWit P2SH(P2WPKH) input](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
-- [Create (and broadcast via 3PBP) a Transaction with a SegWit P2WPKH input](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
-- [Create (and broadcast via 3PBP) a Transaction with a SegWit P2PK input](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
-- [Create (and broadcast via 3PBP) a Transaction with a SegWit 3-of-4 P2SH(P2WSH(multisig)) input](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
-- [Create (and broadcast via 3PBP) a Transaction and sign with an HDSigner interface (bip32)](https://github.com/tdcoinjs/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
+- [Generate a random address](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
+- [Import an address via WIF](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
+- [Generate a 2-of-3 P2SH multisig address](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
+- [Generate a SegWit address](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
+- [Generate a SegWit P2SH address](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
+- [Generate a SegWit 3-of-4 multisig address](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
+- [Generate a SegWit 2-of-2 P2SH multisig address](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
+- [Support the retrieval of transactions for an address (3rd party blockchain)](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
+- [Generate a Testnet address](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
+- [Generate a Litecoin address](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/addresses.spec.ts)
+- [Create a 1-to-1 Transaction](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
+- [Create (and broadcast via 3PBP) a typical Transaction](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
+- [Create (and broadcast via 3PBP) a Transaction with an OP\_RETURN output](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
+- [Create (and broadcast via 3PBP) a Transaction with a 2-of-4 P2SH(multisig) input](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
+- [Create (and broadcast via 3PBP) a Transaction with a SegWit P2SH(P2WPKH) input](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
+- [Create (and broadcast via 3PBP) a Transaction with a SegWit P2WPKH input](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
+- [Create (and broadcast via 3PBP) a Transaction with a SegWit P2PK input](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
+- [Create (and broadcast via 3PBP) a Transaction with a SegWit 3-of-4 P2SH(P2WSH(multisig)) input](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
+- [Create (and broadcast via 3PBP) a Transaction and sign with an HDSigner interface (bip32)](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/transactions.spec.ts)
 - [Import a BIP32 testnet xpriv and export to WIF](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
 - [Export a BIP32 xpriv, then import it](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)
 - [Export a BIP32 xpub](https://github.com/tatdig/tdcoinjs-lib/blob/master/test/integration/bip32.spec.ts)

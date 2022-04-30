@@ -1,7 +1,8 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
 exports.tdcoin = {
-  messagePrefix: '\x18Tdcoin Signed Message:\n',
+  //messagePrefix: '\x18Tdcoin Signed Message:\n',
+  messagePrefix: 'u0018Tdcoin Signed Message:\n',
   bech32: 'tc',
   bip32: {
     public: 0x0488b21e,
@@ -9,7 +10,7 @@ exports.tdcoin = {
   },
   pubKeyHash: 0x41,
   scriptHash: 0x52,
-  wif: 0x6B,
+  wif: 0x6b,
 };
 exports.regtest = {
   messagePrefix: '\x18Tdcoin Signed Message:\n',

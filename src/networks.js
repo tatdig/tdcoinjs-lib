@@ -2,7 +2,7 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 exports.tdcoin = {
   //messagePrefix: '\x18Tdcoin Signed Message:\n',
-  messagePrefix: 'u0018Tdcoin Signed Message:\n',
+  messagePrefix: '\u0018Tdcoin Signed Message:\n',
   bech32: 'tc',
   bip32: {
     public: 0x0488b21e,
